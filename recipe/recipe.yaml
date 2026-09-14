@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.3"
+  version: "0.1.4"
 
 package:
   name: ipygis
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/i/ipygis/ipygis-${{ version }}.tar.gz
-    sha256: 53a47341688c10ff173a556709583a9db58bf855aa7d31cdc5e197553def3957
+    sha256: f3e3d028d559814c7debd67de326575868a3bc710a8cc74830029b6ea68e04bf
     patches:
       - fill-frontend-license-texts.patch
 
